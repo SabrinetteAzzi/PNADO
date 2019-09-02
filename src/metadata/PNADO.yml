@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/PNADO
+
+idspace: PNADO
+base_url: /obo/PNADO
+
+products:
+- PNADO.owl: https://raw.githubusercontent.com/SabrinetteAzzi/PNADO/master/PNADO.owl
+- PNADO.obo: https://raw.githubusercontent.com/SabrinetteAzzi/PNADO/master/PNADO.obo
+
+term_browser: ontobee
+example_terms:
+- PNADO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/SabrinetteAzzi/PNADO/v
+
+- prefix: /tracker/
+  replacement: https://github.com/SabrinetteAzzi/PNADO/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PNADO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/SabrinetteAzzi/PNADO/master/
