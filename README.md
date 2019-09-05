@@ -24,13 +24,10 @@ https://raw.githubusercontent.com/obopneumonia/PNADO/master/PNADO.owl?token=AMWZ
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
-### Editors' version
-
-Editors of this ontology should use the edit version, [src/ontology/PNADO-edit.owl](src/ontology/PNADO-edit.owl)
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/SabrinetteAzzi/PNADO/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/obopneumonia/PNADO/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 
