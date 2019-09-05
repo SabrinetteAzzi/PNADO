@@ -3,7 +3,7 @@
 
 # Pneumonia Diagnosis Ontology
 
-This ontology... YOUR DESCRIPTION HERE
+PNADO provides the necessary knowledge to diagnose infective pneumonia. It covers symptoms and clinical signs, clinical history, pathogens, laboratory tests and results, imaging, differential diagnosis and pneumonia complications. PNADO is mainly developed to improve pneumonia diagnosis that is affected by errors by using it in a clinical decision support system. PNADO is built with collaboration with physicians from Gatineau hospital and it was evaluated by a pneumologist from Charles-Le Moyne hospital. PNADO will be submitted for another rigorous evaluation of domain experts.
 
 More information can be found at http://obofoundry.org/ontology/PNADO
 
