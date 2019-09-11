@@ -14,15 +14,6 @@ More information can be found at https://github.com/obopneumonia/PNADO/blob/mast
 2) Azzi, Sabrina, Michal Iglewski, Véronique Nabelsi. Design of a Pneumonia Ontology for Diagnosis Decision Support System. World Academy of Science, Engineering and Technology International Journal of Health and Medical Engineering 12. 10 (2018) : 463-466.
 
 3) Azzi, Sabrina, Michal Iglewski, Véronique Nabelsi. Design of a Pneumonia Ontology for Diagnosis Decision Support System. Conference proceedings of the ICCDSSHIA 2018: 20th International Conference on Clinical Decision Support Systems, Health Information and Applications, (2018).
-## Versions
-
-### Stable release versions
-
-The latest version of the ontology can always be found at:
-
-https://github.com/obopneumonia/PNADO/blob/master/PNADO.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
 
 
 ## Contact
