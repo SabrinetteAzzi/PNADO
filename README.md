@@ -5,7 +5,7 @@
 
 PNADO provides the necessary knowledge to diagnose infective pneumonia. It covers symptoms and clinical signs, clinical history, pathogens, laboratory tests and results, imaging, differential diagnosis and pneumonia complications. PNADO is mainly developed to improve pneumonia diagnosis that is affected by errors by using it in a clinical decision support system. PNADO is built with collaboration with physicians from Gatineau hospital and it was evaluated by a pneumologist from Charles-Le Moyne hospital. PNADO will be submitted for another rigorous evaluation of domain experts.
 
-More information can be found at https://raw.githubusercontent.com/obopneumonia/PNADO/master/PNADO.owl?token=AMWZUPPJRLSLW7L2Q25HVC25O75MS
+More information can be found at https://github.com/obopneumonia/PNADO/blob/master/PNADO.owl
 
 ## References
 
@@ -20,7 +20,7 @@ More information can be found at https://raw.githubusercontent.com/obopneumonia/
 
 The latest version of the ontology can always be found at:
 
-https://raw.githubusercontent.com/obopneumonia/PNADO/master/PNADO.owl?token=AMWZUPPJRLSLW7L2Q25HVC25O75MS
+https://github.com/obopneumonia/PNADO/blob/master/PNADO.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
