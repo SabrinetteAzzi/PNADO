@@ -270,9 +270,9 @@
     <!-- http://purl.obolibrary.org/obo/PNADO_0001289 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PNADO_0001289">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001169"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001258"/>
-        <rdfs:label>complicated by</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:label>has complication</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -558,6 +558,15 @@
         <Pneumonia1:altLabel>is responsable of</Pneumonia1:altLabel>
         <Pneumonia:database_cross-reference>RO_0003302</Pneumonia:database_cross-reference>
         <rdfs:label>causes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PNADO:0001157 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/PNADO:0001157">
+        <oboInOwl:id>PNADO:0001157</oboInOwl:id>
+        <rdfs:label>has differential diagnosis</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6915,7 +6924,7 @@ HP:0001873</Pneumonia:database_cross-reference>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0000396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0000396</oboInOwl:id>
         <Pneumonia:UMLS_CUI>C0018802</Pneumonia:UMLS_CUI>
         <Pneumonia:has_exact_synonym>CARDIAC FAILURE CONGESTIVE</Pneumonia:has_exact_synonym>
@@ -11975,7 +11984,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0000801">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0000801</oboInOwl:id>
         <Pneumonia:UMLS_CUI>C0004144</Pneumonia:UMLS_CUI>
         <rdfs:label>atelectasis</rdfs:label>
@@ -15969,20 +15978,10 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PNADO_0001157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <oboInOwl:id>PNADO:0001157</oboInOwl:id>
-        <rdfs:label>differential diagnosis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PNADO_0001158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001158</oboInOwl:id>
         <rdfs:label>acute bronchitis</rdfs:label>
     </owl:Class>
@@ -15992,7 +15991,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001159</oboInOwl:id>
         <Pneumonia:UMLS_CUI>C0006277</Pneumonia:UMLS_CUI>
         <Pneumonia:UMLS_CUI>C2887484</Pneumonia:UMLS_CUI>
@@ -16005,7 +16004,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001161</oboInOwl:id>
         <Pneumonia:UMLS_CUI>C0206062</Pneumonia:UMLS_CUI>
         <rdfs:label>interstitial lung disease</rdfs:label>
@@ -16016,7 +16015,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001162</oboInOwl:id>
         <rdfs:label>lung cancer</rdfs:label>
     </owl:Class>
@@ -16026,7 +16025,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001163</oboInOwl:id>
         <rdfs:label>non infectious pneumonia</rdfs:label>
     </owl:Class>
@@ -16076,7 +16075,7 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <oboInOwl:id>PNADO:0001168</oboInOwl:id>
         <Pneumonia:UMLS_CUI>C0034065</Pneumonia:UMLS_CUI>
         <rdfs:label>pulmonary embolism</rdfs:label>
@@ -16087,11 +16086,107 @@ UMLS:C0872391</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001259"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001258"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000852"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001265"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001268"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001269"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001289"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001270"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000396"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001159"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001161"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/PNADO:0001157"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001168"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id>PNADO:0001169</oboInOwl:id>
@@ -16938,20 +17033,10 @@ SNOMEDCT_US:75367002</Pneumonia:database_cross-reference>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PNADO_0001258 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <oboInOwl:id>PNADO:0001258</oboInOwl:id>
-        <rdfs:label>other anomalies</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PNADO_0001259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001258"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <oboInOwl:id>PNADO:0001259</oboInOwl:id>
         <rdfs:label>diseases</rdfs:label>
     </owl:Class>
@@ -16961,7 +17046,7 @@ SNOMEDCT_US:75367002</Pneumonia:database_cross-reference>
     <!-- http://purl.obolibrary.org/obo/PNADO_0001260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0001258"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <oboInOwl:id></oboInOwl:id>
         <oboInOwl:id>PNADO:0001260</oboInOwl:id>
         <rdfs:label>syndromes</rdfs:label>
@@ -17259,6 +17344,16 @@ DOID:2797</Pneumonia:database_cross-reference>
         <Pneumonia:has_exact_synonym>Idiopathic fibrosing alveolitis</Pneumonia:has_exact_synonym>
         <Pneumonia:has_related_synonym>IPF</Pneumonia:has_related_synonym>
         <rdfs:label>idiopathic interstitial pneumonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PNADO_0001324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PNADO_0001324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PNADO_0000809"/>
+        <oboInOwl:id>PNADO:0001324</oboInOwl:id>
+        <rdfs:label>c-reactive protein</rdfs:label>
     </owl:Class>
     
 
