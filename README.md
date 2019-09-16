@@ -18,7 +18,8 @@ More information can be found at https://github.com/obopneumonia/PNADO/blob/mast
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/obopneumonia/PNADO/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Sabrina Azzi, sabr.azzi@gmail.com, GitHub: obopneumonia
+Tracker link:  https://github.com/obopneumonia/PNADO/issues
 
 ## Acknowledgements
 
